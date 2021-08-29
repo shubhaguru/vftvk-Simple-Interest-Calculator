@@ -10,7 +10,7 @@ function compute()
     var yrs = document.getElementById("years").value;
     var interest = (p * yrs * ri)/100;
     var year = new Date().getFullYear()+parseInt(yrs);
-    document.getElementById("result").innerHTML="If you deposit "+p+",\<br\>at an interest rate of "+ri+"%\<br\>You will receive an amount of "+interest+",\<br\>in the year "+year+"\<br\>"
+    document.getElementById("result").innerHTML="If you deposit \<mark>"+p+"\<mark\>,\<br\>at an interest rate of "+ri+"%\<br\>You will receive an amount of "+interest+",\<br\>in the year "+year+"\<br\>"
 }
 
 
